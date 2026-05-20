@@ -1,0 +1,66 @@
+# Read-only reference clones (open-source MTProxy implementations
+# used to cross-check the protocol. NEVER committed.)
+_references/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ncb
+*.opendb
+*.aps
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+Win32/
+Generated Files/
+
+# Native artifacts
+*.obj
+*.pch
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.lib
+*.exp
+*.dll
+*.exe
+*.idb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+# .NET / NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+TestResults/
+coverage/
+
+# Local tooling
+.env
+.env.*
+*.local
+*.tmp
+*.bak
+
+# OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
